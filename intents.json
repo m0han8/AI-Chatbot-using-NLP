@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you", "What's up"],
+      "responses": ["Hi there!", "Hello!", "Hey!", "I'm doing well, how can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+      "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["What can you do?", "Who are you?", "What is your purpose?"],
+      "responses": ["I am an AI chatbot designed to assist you.", "I provide information and answer queries."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "I need help", "Can you help me?", "What should I do?"],
+      "responses": ["Sure, what do you need help with?", "I'm here to assist. What's the problem?"]
+    },
+    {
+      "tag": "developer",
+      "patterns": ["Who developed you?", "Who created you?"],
+      "responses": ["I was developed by AI engineers!", "My creators are AI enthusiasts."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "How's the weather today?"],
+      "responses": ["I'm sorry, I cannot provide real-time weather updates.", "You can check the weather on a weather app."]
+    },
+    {
+      "tag": "budget",
+      "patterns": ["How can I make a budget?", "What's a good budgeting strategy?", "How do I create a budget?"],
+      "responses": ["To create a budget, track your income and expenses and allocate wisely."]
+    }
+  ]
+}
